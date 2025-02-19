@@ -1,4 +1,4 @@
-from .types.signals import TradingSignal
+from .types.tradingsignal import TradingSignal
 
 __all__ = [
     "TradingSignal",
