@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fraclib"
+version = "0.1.0"
+description = "Shared components / utility functins / dataclasses of the fractrade platform"
+authors = ["crjameson <93468664+crjameson@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "fraclib", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
